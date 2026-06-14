@@ -1,5 +1,4 @@
-document.querySelector("h1 span.hollow").classList.add("fade-in");
-document.querySelector("h1").classList.add("fade-in");
+document.querySelector("body > img").classList.add("fade-in");
 
 document.querySelectorAll("a.toggle").forEach(toggleButton => {
 	toggleButton.addEventListener("click", event => {
